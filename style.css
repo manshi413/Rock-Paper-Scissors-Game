@@ -1,0 +1,56 @@
+body{
+    border: 10px double black;
+    font-family:cursive;
+    background-color:azure;
+}
+#we{
+    padding-left: 250px;
+    padding-top: 100px;
+}
+#zx{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.qw{
+    display: inline-flex;
+    list-style-type: none;
+}
+#as{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    font-size: xx-large;
+}
+#bn{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+#th{
+    font-size:larger;
+}
+#r{
+    padding-left: 350px;
+}
+#p{
+    padding-left: 200px;
+}
+#s{
+    padding-left: 165px;
+}
+#er{
+    font-size:xx-large;
+}
+#jh{
+    padding-left: 550px;
+}
+#po{
+    padding-left: 50px;
+}
+#button1{
+    margin-left: 580px;
+    font-size: 35px;
+}
+#button2{
+    margin-left: 100px;
+    font-size: 35px;
+}
