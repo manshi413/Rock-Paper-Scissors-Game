@@ -50,11 +50,9 @@ body{
 }
 #button1{
     margin-left: 580px;
-    font-size: 35px;
 }
 #button2{
     margin-left: 100px;
-    font-size: 35px;
 }
 #lk{
     margin-left: 1400px;
@@ -68,4 +66,7 @@ body{
     margin-left: 500px;
     font-size: xx-large;
     border: 2px double blue;
+}
+#l{
+    font-size: larger;
 }
