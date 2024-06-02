@@ -67,6 +67,8 @@ body{
     font-size: xx-large;
     background-color: blue;
     border-width: 250px;
+    color: white;
+    font-weight: bolder;
 }
 #l{
     font-size: larger;
