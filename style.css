@@ -70,6 +70,8 @@ body{
 }
 #l{
     font-size: larger;
+    margin-top: 50px;
+    margin-bottom: 0px;
 }
 #lo{
     float: right;
