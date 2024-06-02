@@ -70,6 +70,8 @@ body{
     border-width: 250px;
     color: white;
     font-weight: bolder;
+    height: 50px;
+    width: 250px;
 }
 #l{
     font-size: larger;
