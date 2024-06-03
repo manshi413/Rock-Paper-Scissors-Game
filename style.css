@@ -12,6 +12,10 @@ body{
     padding-left: 100px;
     padding-top: 100px;
 }
+.qw:hover{
+    opacity: 0.5;
+    cursor: crosshair;
+}
 .qw{
     display: inline-flex;
     list-style-type: none;
