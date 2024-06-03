@@ -19,5 +19,4 @@ let t=document.querySelector("#we");
 let y=document.querySelector("#zx");
 let u=document.querySelector("#bn");
 let r=addEventListener("click",()=>{
-    
-})
+});
