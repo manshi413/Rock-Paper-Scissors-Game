@@ -24,19 +24,17 @@ let compscore=0;
     const options=["rock","paper","scissors"];
     let ind= Math.floor(Math.random()*3);
     return options[ind];
- }
+ };
 
 const playGame = (userchoice)=>{
     console.log("user choice=", userchoice);
     //Generate comp choice
     const compchoice=genCompChoice();
-    console.log(compchoice);
-}
+};
 
 d.forEach((choice)=>{
     choice.addEventListener("click",()=>{
         const userchoice=choice.getAttribute("id");
-        console.log("Choice was clicked", userchoice);
         playGame(userchoice);
     });
 });
