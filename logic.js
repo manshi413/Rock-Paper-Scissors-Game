@@ -1,4 +1,6 @@
+let el=document.querySelector("#lo");
 mode="light"
+let m=el.addEventListener("click",()=>{
 if(mode==="light")
     {
         mode="dark";
@@ -11,3 +13,4 @@ else
         document.querySelector("#lo").classList.add("light")
         document.querySelector("#lo").classList.remove("dark");
 }
+});
