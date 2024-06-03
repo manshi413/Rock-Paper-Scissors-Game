@@ -81,3 +81,11 @@ body{
 #lo{
     float: right;
 }
+.dark{
+    background-color: black;
+    color: white;
+}
+.light{
+    background-color: white;
+    color: black;
+}
