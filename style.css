@@ -85,6 +85,8 @@ body{
 .dark{
     background-color: black;
     color: white;
+    border: 10px double white;
+    
 }
 .light{
     background-color: white;
