@@ -15,6 +15,7 @@ body{
 .qw{
     display: inline-flex;
     list-style-type: none;
+    border-radius: 50%;
 }
 #as{
     color:black;
