@@ -22,7 +22,7 @@ let compscore=0;
  const genCompChoice=()=>{
     //rock,paper,scissors
     const options=["rock","paper","scissors"];
-    let ind= Math.floor(Math.random())*3;
+    let ind= Math.floor(Math.random()*3);
     return options[ind];
  }
 
