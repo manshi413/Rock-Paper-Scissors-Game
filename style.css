@@ -14,18 +14,18 @@ body{
 }
 #we:hover{
     opacity: 0.5;
-    border: 1px double black;
     cursor:pointer;
+    background-color: black;
 }
 #bn:hover{
     opacity: 0.5;
-    border: 1px double black;
     cursor:pointer;
+    border-color: black;
 }
 #zx:hover{
     opacity: 0.5;
-    border: 1px double black;
     cursor:pointer;
+    border-color: black;
 }
 .qw{
     display: inline-flex;
