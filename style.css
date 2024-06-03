@@ -12,7 +12,7 @@ body{
     padding-left: 100px;
     padding-top: 100px;
 }
-.qw:hover{
+#we:hover{
     opacity: 0.5;
     cursor: crosshair;
 }
@@ -76,8 +76,8 @@ body{
     border-width: 250px;
     color: white;
     font-weight: bolder;
-    height: 50px;
-    width: 235px;
+    height: 60px;
+    width: 250px;
 }
 #l{
     font-size: larger;
