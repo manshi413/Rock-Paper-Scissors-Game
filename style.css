@@ -14,7 +14,7 @@ body{
 }
 #we:hover{
     opacity: 0.5;
-    cursor:col-resize;
+    cursor:pointer;
 }
 .qw{
     display: inline-flex;
