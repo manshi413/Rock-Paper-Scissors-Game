@@ -15,8 +15,27 @@ else
         h.classList.remove("dark");
 }
 });
-// let t=document.querySelector("#we");
-// let y=document.querySelector("#zx");
-// let u=document.querySelector("#bn");
-// let r=addEventListener("click",()=>{
-// });
+let d=document.querySelectorAll(".qw");
+let userscore=0;
+let compscore=0;
+
+ const genCompChoice=()=>{
+    //rock,paper,scissors
+    const options=["rock","paper","scissors"];
+    let ind= Math.floor(Math.random())*3;
+    return options[ind];
+ }
+
+const playGame = (userchoice)=>{
+    console.log("user choice=", userchoice);
+    //Generate comp choice
+    const compchoice=genCompChoice();
+}
+
+d.forEach((choice)=>{
+    choice.addEventListener(("click"),()=>{
+        const userchoice=choice.getAttribute("id");
+        console.log("Choice was clicked", userchoice);
+        playGame(userchoice);
+    });
+});
