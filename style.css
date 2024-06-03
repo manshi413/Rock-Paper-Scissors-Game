@@ -20,12 +20,12 @@ body{
 #bn:hover{
     opacity: 0.5;
     cursor:pointer;
-    border-color: black;
+    background-color: black;
 }
 #zx:hover{
     opacity: 0.5;
     cursor:pointer;
-    border-color: black;
+    background-color: black;
 }
 .qw{
     display: inline-flex;
