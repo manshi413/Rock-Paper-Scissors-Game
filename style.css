@@ -16,6 +16,14 @@ body{
     opacity: 0.5;
     cursor:pointer;
 }
+#bn:hover{
+    opacity: 0.5;
+    cursor:pointer;
+}
+#zx:hover{
+    opacity: 0.5;
+    cursor:pointer;
+}
 .qw{
     display: inline-flex;
     list-style-type: none;
