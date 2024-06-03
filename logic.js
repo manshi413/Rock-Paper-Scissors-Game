@@ -30,10 +30,11 @@ const playGame = (userchoice)=>{
     console.log("user choice=", userchoice);
     //Generate comp choice
     const compchoice=genCompChoice();
+    console.log(compchoice);
 }
 
 d.forEach((choice)=>{
-    choice.addEventListener(("click"),()=>{
+    choice.addEventListener("click",()=>{
         const userchoice=choice.getAttribute("id");
         console.log("Choice was clicked", userchoice);
         playGame(userchoice);
