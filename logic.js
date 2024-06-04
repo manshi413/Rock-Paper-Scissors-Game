@@ -57,6 +57,14 @@ const playGame = (userchoice)=>{
             compchoice==="rock"?true:false;
         }
     }
+    if(userchoice==true)
+        {
+            document.querySelector("yp").innerText("You Won");
+        }
+    else
+    {
+        document.querySelector("yp").innerText("Computer Won");
+    }
 };
 
 d.forEach((choice)=>{
