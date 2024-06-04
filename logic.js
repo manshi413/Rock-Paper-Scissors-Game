@@ -46,15 +46,15 @@ const playGame = (userchoice)=>{
         let userwin=true;
         if(userchoice==="we")
             {
-                compchoice==="zx"?false:true;
+                compchoice==="paper"?false:true;
             }
         else if(userchoice==="zx")
         {
-            compchoice==="we"?true:false;
+            compchoice==="rock"?true:false;
         }
         else
         {
-            compchoice==="we"?true:false;
+            compchoice==="rock"?true:false;
         }
     }
 };
