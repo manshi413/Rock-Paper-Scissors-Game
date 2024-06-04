@@ -30,6 +30,7 @@ const playGame = (userchoice)=>{
     console.log("user choice=", userchoice);
     //Generate comp choice
     const compchoice=genCompChoice();
+    console.log(compchoice);
 };
 
 d.forEach((choice)=>{

@@ -98,7 +98,7 @@ body{
 }
 .dark{
     background-color: black;
-    /* color: white; */
+    color: white;
     border: 10px double white;
     
 }
