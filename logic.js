@@ -15,7 +15,7 @@ else
         h.classList.remove("dark");
 }
 });
-let d=document.querySelectorAll(".qw");
+let d=document.querySelectorAll(".choice");
 let userscore=0;
 let compscore=0;
 
