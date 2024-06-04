@@ -57,7 +57,7 @@ const playGame = (userchoice)=>{
             compchoice==="rock"?true:false;
         }
     }
-    if(userchoice==true)
+    if(userchoice===true)
         {
             document.querySelector("yp").innerText("You Won");
         }
