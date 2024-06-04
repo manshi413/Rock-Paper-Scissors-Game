@@ -26,11 +26,37 @@ let compscore=0;
     return options[ind];
  };
 
+const draw=()=>{
+    console.log("Game was draw");
+
+};
+
 const playGame = (userchoice)=>{
     console.log("user choice=", userchoice);
     //Generate comp choice
     const compchoice=genCompChoice();
     console.log(compchoice);
+    if(userchoice===compchoice)
+        {
+            //draw
+            draw();
+        }
+    else
+    {
+        let userwin=true;
+        if(userchoice==="we")
+            {
+                compchoice==="zx"?false:true;
+            }
+        else if(userchoice==="zx")
+        {
+            compchoice==="we"?true:false;
+        }
+        else
+        {
+            compchoice==="we"?true:false;
+        }
+    }
 };
 
 d.forEach((choice)=>{
