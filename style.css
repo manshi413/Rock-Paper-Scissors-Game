@@ -15,6 +15,7 @@ body{
 #we:hover{
     opacity: 0.5;
     cursor:pointer;
+    border: 50%;
 }
 #bn:hover{
     opacity: 0.5;
