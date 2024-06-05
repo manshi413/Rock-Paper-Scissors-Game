@@ -35,7 +35,7 @@ const draw=()=>{
 let userScorePara=document.querySelector("#jh");
 let compScorePara=document.querySelector("po");
 
-const showWinner = (userWin, userChoice, compChoice) => {
+const showWinner = (userwin, userChoice, compChoice) => {
     if (userWin) {
       userScore++;
       userScorePara.innerText = userScore;
