@@ -74,8 +74,9 @@ const playGame = (userchoice)=>{
         {
             compchoice==="rock"?true:false;
         }
+        showWinner(userwin,userchoice,compchoice);
     }
-    showWinner(userwin,userchoice,compchoice);
+    
 };
 
 d.forEach((choice)=>{
