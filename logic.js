@@ -1,3 +1,5 @@
+let userScore=0;
+let compScore=0;
 let el=document.querySelector("#lo");
 let h=document.querySelector("body");
 mode="light"
@@ -30,17 +32,22 @@ const draw=()=>{
     console.log("Game was draw");
 
 };
+let userScorePara=document.querySelector("#jh");
+let compScorePara=document.querySelector("po");
 
-const showwinner = (userwin) => {
-    if(userwin)
-        {
-            console.log("You Won");
-        }
-    else
-    {
-        console.log("You Lost");
+const showWinner = (userWin, userChoice, compChoice) => {
+    if (userWin) {
+      userScore++;
+      userScorePara.innerText = userScore;
+      msg.innerText = `You win! Your ${userChoice} beats ${compChoice}`;
+      msg.style.backgroundColor = "green";
+    } else {
+      compScore++;
+      compScorePara.innerText = compScore;
+      msg.innerText = `You lost. ${compChoice} beats your ${userChoice}`;
+      msg.style.backgroundColor = "red";
     }
-}
+  };
 
 const playGame = (userchoice)=>{
     console.log("user choice=", userchoice);
@@ -68,7 +75,7 @@ const playGame = (userchoice)=>{
             compchoice==="rock"?true:false;
         }
     }
-    showwinner(userwin);
+    showWinner(userwin,userchoice,compchoice);
 };
 
 d.forEach((choice)=>{
