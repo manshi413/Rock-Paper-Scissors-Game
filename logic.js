@@ -31,6 +31,17 @@ const draw=()=>{
 
 };
 
+const showwinner = (userwin) => {
+    if(userwin)
+        {
+            console.log("You Won");
+        }
+    else
+    {
+        console.log("You Lost");
+    }
+}
+
 const playGame = (userchoice)=>{
     console.log("user choice=", userchoice);
     //Generate comp choice
@@ -57,14 +68,7 @@ const playGame = (userchoice)=>{
             compchoice==="rock"?true:false;
         }
     }
-    if(userchoice==true)
-        {
-            document.querySelector("#yp").innerText="You Won";
-        }
-    else
-    {
-        document.querySelector("#yp").innerText="Computer Won";
-    }
+    showwinner(userwin);
 };
 
 d.forEach((choice)=>{
