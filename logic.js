@@ -5,7 +5,7 @@ let compScorePara=document.querySelector("#button2");
 let msg=document.querySelector("#yp");
 let el=document.querySelector("#lo");
 let h=document.querySelector("body");
-mode="light"
+let mode="light"
 let m=el.addEventListener("click",()=>{
 if(mode==="light")
     {
@@ -36,7 +36,7 @@ const draw=()=>{
 
 };
 
-const showWinner = (userwin, userChoice, compChoice) => {
+const showWinner = (userwin, userchoice, compchoice) => {
     if (userwin==true) {
       userScore++;
       userScorePara.innerText = userScore;
@@ -65,7 +65,7 @@ const playGame = (userchoice)=>{
         let userwin=true;
         if(userchoice==="we")   //Rock
             {
-                userwin=compchoice=="paper"?false:true;
+                userwin= compchoice==="paper"?false:true;
             }
         else if(userchoice==="zx")    //Paper
         {
