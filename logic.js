@@ -37,7 +37,7 @@ const draw=()=>{
 };
 
 const showWinner = (userwin, userChoice, compChoice) => {
-    if (userwin) {
+    if (userwin==true) {
       userScore++;
       userScorePara.innerText = userScore;
       msg.innerText = `You won!`;
