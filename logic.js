@@ -62,17 +62,17 @@ const playGame = (userchoice)=>{
     else
     {
         let userwin=true;
-        if(userchoice==="we")
+        if(userchoice==="we")   //Rock
             {
                 compchoice==="paper"?false:true;
             }
-        else if(userchoice==="zx")
+        else if(userchoice==="zx")    //Paper
         {
             compchoice==="rock"?true:false;
         }
-        else
+        else     //Scissors
         {
-            compchoice==="rock"?true:false;
+            compchoice==="rock"?false:true;
         }
         showWinner(userwin,userchoice,compchoice);
     }
