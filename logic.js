@@ -36,7 +36,7 @@ let userScorePara=document.querySelector("#jh");
 let compScorePara=document.querySelector("po");
 
 const showWinner = (userwin, userChoice, compChoice) => {
-    if (userWin) {
+    if (userwin) {
       userScore++;
       userScorePara.innerText = userScore;
       msg.innerText = `You win! Your ${userChoice} beats ${compChoice}`;
