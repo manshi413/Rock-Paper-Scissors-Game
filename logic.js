@@ -59,11 +59,11 @@ const playGame = (userchoice)=>{
     }
     if(userchoice===true)
         {
-            document.querySelector("yp").innerText("You Won");
+            document.querySelector("#yp").innerText("You Won");
         }
     else
     {
-        document.querySelector("yp").innerText("Computer Won");
+        document.querySelector("#yp").innerText("Computer Won");
     }
 };
 
