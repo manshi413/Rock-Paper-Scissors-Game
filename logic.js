@@ -51,10 +51,10 @@ const showWinner = (userwin, userChoice, compChoice) => {
   };
 
 const playGame = (userchoice)=>{
-    console.log("user choice=", userchoice);
+    console.log("user's choice =", userchoice);
     //Generate comp choice
     const compchoice=genCompChoice();
-    console.log(compchoice);
+    console.log("Computer's Choice = ",compchoice);
     if(userchoice===compchoice)
         {
             //draw
