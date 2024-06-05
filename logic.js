@@ -1,5 +1,8 @@
 let userScore=0;
 let compScore=0;
+let userScorePara=document.querySelector("#button1");
+let compScorePara=document.querySelector("#button2");
+let msg=document.querySelector("#yp");
 let el=document.querySelector("#lo");
 let h=document.querySelector("body");
 mode="light"
@@ -29,12 +32,11 @@ let compscore=0;
  };
 
 const draw=()=>{
-    console.log("Game was draw");
+  msg.innerText = "Game was Draw!";
+  msg.style.backgroundColor = "#081b31";
 
 };
-let userScorePara=document.querySelector("#button1");
-let compScorePara=document.querySelector("#button2");
-let msg=document.querySelector("#yp");
+
 const showWinner = (userwin, userChoice, compChoice) => {
     if (userwin) {
       userScore++;
