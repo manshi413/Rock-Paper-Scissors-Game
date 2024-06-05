@@ -51,7 +51,18 @@ const showWinner = (userwin, userchoice, compchoice) => {
   };
 
 const playGame = (userchoice)=>{
-    console.log("user's choice =", userchoice);
+    if(userchoice==="we")
+        {
+            console.log("user's choice = Rock");
+        }
+    else if(userchoice==="zx")
+        {
+            console.log("user's choice = Paper");
+        }
+    else
+       {
+           console.log("user's choice = Scissors");
+       }
     //Generate comp choice
     const compchoice=genCompChoice();
     console.log("Computer's Choice = ",compchoice);
