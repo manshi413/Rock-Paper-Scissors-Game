@@ -33,8 +33,8 @@ const draw=()=>{
 
 };
 let userScorePara=document.querySelector("#jh");
-let compScorePara=document.querySelector("po");
-
+let compScorePara=document.querySelector("#po");
+let msg=document.querySelector("#yp");
 const showWinner = (userwin, userChoice, compChoice) => {
     if (userwin) {
       userScore++;
