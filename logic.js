@@ -21,8 +21,7 @@ else
 }
 });
 let d=document.querySelectorAll(".choice");
-let userscore=0;
-let compscore=0;
+
 
  const genCompChoice=()=>{
     //rock,paper,scissors
@@ -32,7 +31,7 @@ let compscore=0;
  };
 
 const draw=()=>{
-  msg.innerText = "Game was Draw!";
+  msg.innerText = "It was Draw!";
   msg.style.backgroundColor = "#081b31";
 
 };
@@ -41,12 +40,12 @@ const showWinner = (userwin, userChoice, compChoice) => {
     if (userwin) {
       userScore++;
       userScorePara.innerText = userScore;
-      msg.innerText = `You won tha game!`;
+      msg.innerText = `You won!`;
       msg.style.backgroundColor = "green";
     } else {
       compScore++;
       compScorePara.innerText = compScore;
-      msg.innerText = `You lost the game!`;
+      msg.innerText = `You lost!`;
       msg.style.backgroundColor = "red";
     }
   };
