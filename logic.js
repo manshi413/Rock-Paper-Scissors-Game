@@ -40,12 +40,12 @@ const showWinner = (userwin, userchoice, compchoice) => {
     if (userwin==true) {
       userScore++;
       userScorePara.innerText = userScore;
-      msg.innerText = `You won!`;
+      msg.innerText = `Wow! You won!`;
       msg.style.backgroundColor = "green";
     } else {
       compScore++;
       compScorePara.innerText = compScore;
-      msg.innerText = `You lost!`;
+      msg.innerText = `Oops! You lost!`;
       msg.style.backgroundColor = "red";
     }
   };
