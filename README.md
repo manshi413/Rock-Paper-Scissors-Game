@@ -10,7 +10,7 @@ This is a simple and interactive Rock Paper Scissors game built using HTML, CSS,
 - **Score Tracking**: Keeps track of the user's and computer's scores.
 
 ### How to Play <br>
-1. Choose either Rock, Paper, or Scissors by clicking the corresponding button.
+1. Choose Rock, Paper, or Scissors by clicking the corresponding button.
 2. The computer will randomly select its move.
 3. The result of the match will be displayed, along with updated scores.
 
